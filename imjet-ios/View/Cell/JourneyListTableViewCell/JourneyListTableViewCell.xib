@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="JourneyListTableViewCell" id="gwb-J6-wVN" customClass="JourneyListTableViewCell" customModule="Imjet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="75"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gwb-J6-wVN" id="uay-fO-jol">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="REF-Ep-L53">
+                        <rect key="frame" x="20" y="12.5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="OA9-11-AIL"/>
+                            <constraint firstAttribute="height" constant="50" id="WWu-cw-21L"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="999" verticalHuggingPriority="252" horizontalCompressionResistancePriority="999" verticalCompressionResistancePriority="252" text="2/12B Đồng Nai, Phường 15, Quận 10, Hồ Chí Minh, Việt Nam" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pck-rA-IxX">
+                        <rect key="frame" x="80" y="15" width="210" height="18.5"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4W-n0-ExC">
+                        <rect key="frame" x="80" y="41.5" width="314" height="18.5"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="250" text="2.600.000 VND" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggJ-7M-rsD">
+                        <rect key="frame" x="300" y="15" width="94" height="18.5"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pck-rA-IxX" firstAttribute="leading" secondItem="REF-Ep-L53" secondAttribute="trailing" constant="10" id="7cH-S6-Ddt"/>
+                    <constraint firstItem="K4W-n0-ExC" firstAttribute="leading" secondItem="REF-Ep-L53" secondAttribute="trailing" constant="10" id="TdJ-ql-mG5"/>
+                    <constraint firstItem="REF-Ep-L53" firstAttribute="centerY" secondItem="uay-fO-jol" secondAttribute="centerY" id="TkJ-Kz-cGb"/>
+                    <constraint firstAttribute="trailing" secondItem="K4W-n0-ExC" secondAttribute="trailing" constant="20" id="UOd-4s-fO4"/>
+                    <constraint firstItem="pck-rA-IxX" firstAttribute="top" secondItem="uay-fO-jol" secondAttribute="top" constant="15" id="XWl-HD-T3n"/>
+                    <constraint firstAttribute="bottom" secondItem="K4W-n0-ExC" secondAttribute="bottom" constant="15" id="Yv1-M1-mrd"/>
+                    <constraint firstItem="K4W-n0-ExC" firstAttribute="top" secondItem="pck-rA-IxX" secondAttribute="bottom" constant="8" id="bSb-BV-UGr"/>
+                    <constraint firstItem="ggJ-7M-rsD" firstAttribute="leading" secondItem="pck-rA-IxX" secondAttribute="trailing" constant="10" id="cBR-Yq-ABy"/>
+                    <constraint firstItem="REF-Ep-L53" firstAttribute="leading" secondItem="uay-fO-jol" secondAttribute="leading" constant="20" id="v24-AR-vr2"/>
+                    <constraint firstAttribute="trailing" secondItem="ggJ-7M-rsD" secondAttribute="trailing" constant="20" id="wOK-fG-NtJ"/>
+                    <constraint firstItem="ggJ-7M-rsD" firstAttribute="top" secondItem="uay-fO-jol" secondAttribute="top" constant="15" id="wd9-Tb-0gE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="destinationAddressLb" destination="pck-rA-IxX" id="Sbv-55-CFG"/>
+                <outlet property="iconPurposeImageView" destination="REF-Ep-L53" id="wpA-c7-VyO"/>
+                <outlet property="timeLb" destination="K4W-n0-ExC" id="Xlt-xs-nTU"/>
+                <outlet property="totalFeeLb" destination="ggJ-7M-rsD" id="AlE-gn-sT6"/>
+            </connections>
+            <point key="canvasLocation" x="126" y="38"/>
+        </tableViewCell>
+    </objects>
+</document>

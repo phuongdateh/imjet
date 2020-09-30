@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="xt7-c3-rAb" customClass="ManageSectionJourneyListView" customModule="imjet_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l2z-pX-7wH">
+                    <rect key="frame" x="0.0" y="0.0" width="207" height="44"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hf3-mR-Igc">
+                            <rect key="frame" x="0.0" y="42" width="207" height="2"/>
+                            <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="2" id="EGa-Nx-AMO"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vI3-Na-3IM">
+                            <rect key="frame" x="86.5" y="14" width="34.5" height="16.5"/>
+                            <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="hf3-mR-Igc" firstAttribute="leading" secondItem="l2z-pX-7wH" secondAttribute="leading" id="2yo-JH-UkV"/>
+                        <constraint firstAttribute="bottom" secondItem="hf3-mR-Igc" secondAttribute="bottom" id="3fP-8T-qLh"/>
+                        <constraint firstItem="vI3-Na-3IM" firstAttribute="centerY" secondItem="l2z-pX-7wH" secondAttribute="centerY" id="IoJ-Fx-wAq"/>
+                        <constraint firstAttribute="trailing" secondItem="hf3-mR-Igc" secondAttribute="trailing" id="SvK-mr-Vty"/>
+                        <constraint firstItem="vI3-Na-3IM" firstAttribute="centerX" secondItem="l2z-pX-7wH" secondAttribute="centerX" id="i8g-SS-tqI"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kpl-bs-Sjx">
+                    <rect key="frame" x="207" y="0.0" width="207" height="44"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oMA-qC-LK0">
+                            <rect key="frame" x="0.0" y="42" width="207" height="2"/>
+                            <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="2" id="Sow-SN-hbY"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFX-1u-sD6">
+                            <rect key="frame" x="86.5" y="14" width="34.5" height="16.5"/>
+                            <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="oMA-qC-LK0" secondAttribute="bottom" id="AXH-GK-iqn"/>
+                        <constraint firstItem="nFX-1u-sD6" firstAttribute="centerY" secondItem="kpl-bs-Sjx" secondAttribute="centerY" id="R8t-Fz-5pC"/>
+                        <constraint firstItem="nFX-1u-sD6" firstAttribute="centerX" secondItem="kpl-bs-Sjx" secondAttribute="centerX" id="TBf-ZY-KDd"/>
+                        <constraint firstAttribute="trailing" secondItem="oMA-qC-LK0" secondAttribute="trailing" id="b0U-u9-5Gr"/>
+                        <constraint firstItem="oMA-qC-LK0" firstAttribute="leading" secondItem="kpl-bs-Sjx" secondAttribute="leading" id="pbN-WF-ttN"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="kpl-bs-Sjx" secondAttribute="bottom" id="02w-mg-ts6"/>
+                <constraint firstItem="l2z-pX-7wH" firstAttribute="top" secondItem="xt7-c3-rAb" secondAttribute="top" id="AXK-DN-cHV"/>
+                <constraint firstItem="kpl-bs-Sjx" firstAttribute="top" secondItem="xt7-c3-rAb" secondAttribute="top" id="Cd7-jI-vm4"/>
+                <constraint firstAttribute="trailing" secondItem="kpl-bs-Sjx" secondAttribute="trailing" id="Dhf-mE-HHr"/>
+                <constraint firstItem="l2z-pX-7wH" firstAttribute="width" secondItem="kpl-bs-Sjx" secondAttribute="width" id="Gcd-RP-jpJ"/>
+                <constraint firstAttribute="bottom" secondItem="l2z-pX-7wH" secondAttribute="bottom" id="HU7-9Z-rfl"/>
+                <constraint firstItem="l2z-pX-7wH" firstAttribute="leading" secondItem="xt7-c3-rAb" secondAttribute="leading" id="n02-wB-X9W"/>
+                <constraint firstItem="kpl-bs-Sjx" firstAttribute="leading" secondItem="l2z-pX-7wH" secondAttribute="trailing" id="wWV-LI-hKD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="currentLineWrapperView" destination="hf3-mR-Igc" id="cI6-Zp-bT0"/>
+                <outlet property="currentListWrapperView" destination="l2z-pX-7wH" id="Xya-Ea-VE9"/>
+                <outlet property="currentTitleLb" destination="vI3-Na-3IM" id="NgG-wa-iHU"/>
+                <outlet property="historyLineWrapperView" destination="oMA-qC-LK0" id="IwP-hA-nCc"/>
+                <outlet property="historyListWrapperView" destination="kpl-bs-Sjx" id="oDc-Ys-kea"/>
+                <outlet property="historyTitleLb" destination="nFX-1u-sD6" id="9sG-FW-qAF"/>
+            </connections>
+            <point key="canvasLocation" x="563.768115942029" y="-1037.2767857142858"/>
+        </view>
+    </objects>
+</document>

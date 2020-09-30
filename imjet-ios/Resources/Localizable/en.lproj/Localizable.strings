@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  imjet-ios
+
+  Created by DoanDuyPhuong on 9/30/19.
+  Copyright © 2019 DoanDuyPhuong. All rights reserved.
+*/
+
+// MARK: - SigUp-SignIn
+"login.title.page.signin" = "Sign In";
+"login.title.signup" = "SIGN UP";
+"login.title.signin" = "SIGN IN";
+"login.anorther.title" = "Anorther sign in";
+"login.phonenumber.placeholder" = "REGISTERED PHONE NUMBER";
+"login.error.password.notmatch" = "Password wrong. Please enter again!";
+"login.title.content" = "Enter your account";
+"login.password.placeholder" = "PASSWORD";
+
+"register.fullname.placeholder" = "Full name";
+"register.password.placeholder" = "Password";
+"register.retypepassword.placeholder" = "Re-type password";
+"register.login.title" = "SIGN IN";
+"register.register.title" = "CONFIRM";
+
+// MARK: - Journey
+"journey.source.address" = "I'm here ...";
+"jouney.destination.address" = "I want to go ...";
+"journey.createnow.title" = "NOW";
+"journey.createplan.title" = "PLAN";
+"journey.title.reiview" = "Journey infomation";
+"journey.departuretime.title" = "DEPARTURE TIME";
+"journey.reiview.vehicle.title" = "VEHICLE";
+"journey.review.vehicle.value" = "Motobike";
+"journey.confirm.title" = "CONFIRM";
+"journey.searching.title" = "Searching ...";
+"journey.review.price.title" = "PRICE";
+"journey.review.helmet.title" = "HELMET";
+"review.journey.helmet.value.yes" = "Yes";
+"review.journey.helmet.value.no" = "No";
+"review.journey.helmet.value" = "Choose";
+"review.journey.vehicle.value.motobike" = "Motobike";
+"review.journey.error.globalfee" = "Some wrong";
+
+// MARK: - PopupHelmet
+"popup.helmet.title" = "DO YOU HAVE HELMET?";
+"popup.yes.title" = "Yes";
+"popup.no.title" = "No";
+"popup.confirm.title" = "CONFIRM";
+
+// MARK: - ChooseTime
+"choosetime.confirm.title" = "CONTINUE";
+"choosetime.title.day" = "CHOOSE DAY";
+"choosetime.title.hour" = "CHOOSE HOUR";

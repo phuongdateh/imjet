@@ -1,0 +1,54 @@
+/* 
+  Localizable.strings
+  imjet-ios
+
+  Created by DoanDuyPhuong on 9/30/19.
+  Copyright © 2019 DoanDuyPhuong. All rights reserved.
+*/
+
+
+// MARK: - SigUp-SignIn
+"login.title.page.signin" = "Đăng Nhập";
+"login.title.signup" = "ĐĂNG KÝ";
+"login.title.signin" = "ĐĂNG NHẬP";
+"login.anorther.title" = "Hoặc đăng nhập qua";
+"login.phonenumber.placeholder" = "SỐ ĐIỆN THOẠI ĐÃ ĐĂNG KÝ";
+"login.error.password.notmatch" = "Mật khẩu không đúng. Bạn hãy nhập lại nhé!";
+"login.title.content" = "Nhập tài khoản của bạn";
+"login.password.placeholder" = "MẬT KHẨU";
+
+"register.fullname.placeholder" = "Họ và tên";
+"register.password.placeholder" = "Mật khẩu";
+"register.retypepassword.placeholder" = "Nhập lại mật khẩu";
+"register.login.title" = "ĐĂNG NHẬP";
+"register.register.title" = "XÁC NHẬN";
+
+// MARK: - Journey
+"journey.source.address" = "Tôi đang ở ...";
+"jouney.destination.address" = "Tối muốn đi ...";
+"journey.createnow.title" = "ĐẶT NGAY";
+"journey.createplan.title" = "ĐẶT LỊCH";
+"journey.title.reiview" = "Thông tin chuyến đi";
+"journey.departuretime.title" = "THỜI GIAN";
+"journey.reiview.vehicle.title" = "PHƯƠNG TIỆN";
+"journey.review.vehicle.value" = "Xe máy";
+"journey.confirm.title" = "XÁC NHẬN";
+"journey.searching.title" = "Đang tìm kiếm ...";
+"journey.review.price.title" = "GIÁ";
+"journey.review.helmet.title" = "MŨ BẢO HIỂM";
+"review.journey.helmet.value.yes" = "Có";
+"review.journey.helmet.value.no" = "Không";
+"review.journey.helmet.value" = "Chọn";
+"review.journey.vehicle.value.motobike" = "Xe máy";
+"review.journey.error.globalfee" = "Không xác định";
+
+// MARK: - PopupHelmet
+"popup.helmet.title" = "BẠN CÓ MANG MŨ BẢO HIỂM?";
+"popup.yes.title" = "Có";
+"popup.no.title" = "Không";
+"popup.confirm.title" = "XÁC NHẬN";
+
+// MARK: - ChooseTime
+"choosetime.confirm.title" = "TIẾP TỤC";
+"choosetime.title.day" = "CHỌN NGÀY";
+"choosetime.title.hour" = "CHỌN GIỜ";
